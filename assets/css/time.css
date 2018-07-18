@@ -455,6 +455,27 @@ ul {
     font-weight: 200;
 }
 
+.course-card-top .course-label-img {
+    position: absolute;
+    bottom: 6px;
+    left: 8px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 16px;
+    z-index: 4;
+    transition: all 0.3s;
+}
+
+.course-card-top .course-label-img label {
+    display: inline-block;
+    background: rgba(7, 17, 27, .4);
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin-bottom: 2px;
+    margin-right: 0;
+    font-weight: 200;
+}
+
 .course-card-content {
     padding: 12px 8px;
 }
@@ -498,6 +519,10 @@ ul {
     top: -10px;
 }
 
+.course-card:hover .course-card-top .course-label-img {
+    bottom: 15px;
+}
+
 .course-card:hover .img-mid {
     top: 0px;
     left: 11px;
@@ -523,3 +548,175 @@ ul {
 }
 
 /* /推荐课程 */
+
+/* 猿问手记 */
+.container-types {
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 36px 0 48px;
+}
+
+.container-types .wonderful-list {
+    margin-left: 0 !important;
+    width: 1152px;
+    min-height: 560px;
+    position: relative;
+}
+
+.container-types .wonderful-list .item {
+    position: absolute;
+    padding: 24px 32px 32px;
+    width: 372px;
+    box-sizing: border-box;
+    background: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .05);
+    border-radius: 8px;
+    transition: all .3s;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+.container-types .wonderful-list .item .topic-period {
+    display: block;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.container-types .wonderful-list .item .topic-period .big-tit {
+    font-size: 16px;
+    color: rgba(0, 180, 60, .8);
+    line-height: 24px;
+    width: 224px;
+    transition: all .3s;
+}
+
+.container-types .wonderful-list .item label.article-label, .container-types .wonderful-list .item label.wenda-label {
+    line-height: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.container-types .wonderful-list .item .blue {
+    color: rgba(0, 140, 200, .6);
+}
+
+.container-types .wonderful-list .item .article-tit .big-tit.hasimg,
+.container-types .wonderful-list .item .wenda-tit .big-tit.hasimg {
+    width: 224px;
+}
+
+.container-types .wonderful-list .item .topic-period img {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: #f3f5f7;
+}
+
+.container-types .wonderful-list .item label.topic-label {
+    display: inline-block;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 24px;
+    background: rgba(0, 180, 60, .5);
+    border-radius: 12px;
+    padding: 0 12px;
+    margin-bottom: 8px;
+}
+
+.container-types .wonderful-list .item .topic-period {
+    display: block;
+}
+
+.container-types .wonderful-list .item .topic-content {
+    font-weight: 400;
+    font-size: 12px;
+    color: #4D555D;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+p {
+    word-break: break-all;
+}
+
+.container-types .wonderful-list .item .bottom-info {
+    font-size: 12px;
+    color: #93999F;
+    line-height: 24px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.container-types .wonderful-list .item .green {
+    color: rgba(0, 180, 60, .6);
+}
+
+.container-types .wonderful-list .item .tit-line {
+    position: relative;
+    background-color: #D9DDE1;
+    height: 1px;
+    margin: 24px 0;
+    font-weight: 400;
+}
+
+.container-types .wonderful-list .item .tit-line {
+    position: relative;
+    background-color: #D9DDE1;
+    height: 1px;
+    margin: 24px 0;
+    font-weight: 400;
+}
+
+.container-types .wonderful-list .item .bottom-info {
+    font-size: 12px;
+    color: #93999F;
+    line-height: 24px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.container-types .wonderful-list .item .article-content {
+    margin-top: 8px;
+}
+
+.container-types .wonderful-list .item .review-topic .topic-period {
+    margin-bottom: 16px;
+}
+
+.container-types .wonderful-list .item .article-tit img, .container-types .wonderful-list .item .wenda-tit img {
+    width: 72px;
+    height: 48px;
+}
+
+.container-types .wonderful-list .item .review-topic .topic-period .big-tit {
+    font-size: 14px;
+    color: #4D555D;
+    transition: all .3s;
+}
+
+.container-types .wonderful-list .item .topic-period .big-tit {
+    font-size: 16px;
+    color: rgba(0, 180, 60, .8);
+    line-height: 24px;
+    width: 224px;
+    transition: all .3s;
+}
+
+.container-types a {
+    text-decoration-line: none;
+}
+
+.container-types .wonderful-list .item:hover {
+    box-shadow: 0 10px 20px 1px #d2d0de;
+}
+
+/* /猿问手记 */
